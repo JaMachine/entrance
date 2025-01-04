@@ -1,11 +1,5 @@
 {
-    "header_left": "Looking for:",
-    "content_left": "Individuals or groups aged 18 and older.\nA computer or smartphone with a camera and a stable internet connection.\nA passion for engaging with others, embracing the spotlight, and pursuing personal growth.",
-    "header_center":  "Benefits:",
-    "content_center":  "Flexible schedule. Work when it is convenient for you.\nWeekly salary starts from $300. The income directly depends on your activity: on average, you earn $30 per hour, with a minimum of $9 per hour and no maximum limit.\nFree training. We provide all the necessary knowledge and skills for successful live streaming.\n24/7 support. Our managers are always ready to help and answer any of your questions.\nCareer prospects are open for those who demonstrate their best performance.",
-    "header_right":  "text",
-    "content_right":  "Hosting live broadcasts on popular platforms.\nEngaging with the audience by responding to messages and comments.\nOptionally, organizing contests for an additional fee.",
-    "more_videos":  "More Work Examples",
-    "help":  "Need Help?",
-    "register":  "Create Account"
-}
+    "main_text": "English",
+    "yes_btn": "yes eng",
+    "no_btn":  "Нno eng"
+    }
