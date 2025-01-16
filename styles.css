@@ -1,4 +1,14 @@
-body {
+@font-face {
+    font-family: "ButtonFont";
+    src: url("font/but.otf") format("opentype"); /* Путь к файлу шрифта для кнопок */
+  }
+  
+  @font-face {
+    font-family: "TextFont";
+    src: url("font/text.otf") format("opentype"); /* Путь к файлу шрифта для текста */
+  }
+  
+  body {
     background-color: black;
     color: white;
     display: flex;
@@ -7,9 +17,10 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-}
-
-.button {
+    font-family: "TextFont", sans-serif; /* Применяем шрифт для текста */
+  }
+  
+  .button {
     background-color: pink;
     color: black;
     border: none;
@@ -18,4 +29,5 @@ body {
     cursor: pointer;
     border-radius: 6px;
     text-decoration: none;
-}
+    font-family: "ButtonFont", sans-serif; /* Применяем шрифт для кнопок */
+  }
