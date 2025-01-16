@@ -1,11 +1,11 @@
 @font-face {
     font-family: "ButtonFont";
-    src: url("font/but.otf") format("opentype"); /* Путь к файлу шрифта для кнопок */
+    src: url("font/but.otf") format("opentype"); /* Path to your button font */
   }
   
   @font-face {
     font-family: "TextFont";
-    src: url("font/text.otf") format("opentype"); /* Путь к файлу шрифта для текста */
+    src: url("font/text.otf") format("opentype"); /* Path to your text font */
   }
   
   body {
@@ -17,17 +17,23 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: "TextFont", sans-serif; /* Применяем шрифт для текста */
+    font-family: "TextFont", sans-serif; /* Use TextFont for body text */
+    font-size: 39px; /* Set base font size for body */
+  }
+  
+  h1 {
+    font-size: 2em; /* Increase font size for h1 relative to body */
   }
   
   .button {
     background-color: pink;
     color: black;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 24px; /* Increased padding for better button size */
     margin: 5px;
     cursor: pointer;
     border-radius: 6px;
     text-decoration: none;
-    font-family: "ButtonFont", sans-serif; /* Применяем шрифт для кнопок */
+    font-family: "ButtonFont", sans-serif; /* Use ButtonFont for buttons */
+    font-size: 3.9rem; /* Set font size for buttons relative to root */
   }
