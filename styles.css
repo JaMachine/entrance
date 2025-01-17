@@ -1,11 +1,11 @@
 @font-face {
     font-family: "ButtonFont";
-    src: url("font/but.otf") format("opentype"); /* Path to your button font */
+    src: url("font/but.otf") format("opentype");
   }
   
   @font-face {
     font-family: "TextFont";
-    src: url("font/text.otf") format("opentype"); /* Path to your text font */
+    src: url("font/text.otf") format("opentype");
   }
   
   body {
@@ -17,23 +17,40 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: "TextFont", sans-serif; /* Use TextFont for body text */
-    font-size: 39px; /* Set base font size for body */
+    font-family: "TextFont", sans-serif;
+    font-size: 39px;
   }
   
   h1 {
-    font-size: 2em; /* Increase font size for h1 relative to body */
+    font-size: 2em;
   }
   
   .button {
     background-color: pink;
     color: black;
     border: none;
-    padding: 12px 24px; /* Increased padding for better button size */
-    margin: 5px;
+    margin: 9px;
     cursor: pointer;
     border-radius: 6px;
     text-decoration: none;
-    font-family: "ButtonFont", sans-serif; /* Use ButtonFont for buttons */
-    font-size: 3.9rem; /* Set font size for buttons relative to root */
+    font-family: "ButtonFont", sans-serif;
+    font-size: 3.0rem;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; /* Учитываем padding и border в размере кнопки */
+    padding: 0; /* Сбрасываем padding, чтобы он не влиял на размер кнопки */
+    line-height: 1; /* Устанавливаем нормальную высоту строки */
+    text-align: top; /* На всякий случай */
+}
+
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
   }
+  
