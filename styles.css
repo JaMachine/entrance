@@ -1,56 +1,55 @@
 @font-face {
-    font-family: "ButtonFont";
-    src: url("font/but.otf") format("opentype");
-  }
-  
-  @font-face {
-    font-family: "TextFont";
-    src: url("font/text.otf") format("opentype");
-  }
-  
-  body {
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: "TextFont", sans-serif;
-    font-size: 39px;
-  }
-  
-  h1 {
-    font-size: 2em;
-  }
-  
-  .button {
-    background-color: pink;
-    color: black;
-    border: none;
-    margin: 9px;
-    cursor: pointer;
-    border-radius: 6px;
-    text-decoration: none;
-    font-family: "ButtonFont", sans-serif;
-    font-size: 3.0rem;
-    width: 200px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box; /* Учитываем padding и border в размере кнопки */
-    padding: 0; /* Сбрасываем padding, чтобы он не влиял на размер кнопки */
-    line-height: 1; /* Устанавливаем нормальную высоту строки */
-    text-align: top; /* На всякий случай */
+  font-family: "ButtonFont";
+  src: url("font/but.otf") format("opentype");
 }
 
-  
-  .button-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
+@font-face {
+  font-family: "TextFont";
+  src: url("font/text.otf") format("opentype");
+}
+
+body {
+  background: black url("drawable/bg.png") center center / cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "TextFont", sans-serif;
+  font-size: 39px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.button {
+  background-color: rgb(6, 0, 1);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 0, 204); /* Белая обводка толщиной 2px */
+  margin: 15px; /* Пример увеличенного промежутка между кнопками */
+  cursor: pointer;
+  border-radius: 6px; /* Оставляем закругленные углы */
+  text-decoration: none;
+  font-family: "ButtonFont", sans-serif;
+  font-size: 3.0rem;
+  width: 200px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box; /* Учитываем обводку в размере кнопки */
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
