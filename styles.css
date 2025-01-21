@@ -24,7 +24,7 @@ body {
 
 h1#main_text {
   font-size: 1.6em; /* Размер текста */
-  background: linear-gradient(to right, #fff677, #ff77eb, #85e7ff); /* Градиент текста */
+  background: linear-gradient(180deg, #a3b1ff,#a3b1ff, #ff47fc); /* Градиент текста */
   -webkit-background-clip: text; /* Ограничение фона текстом */
   -webkit-text-fill-color: transparent; /* Прозрачный цвет текста */
   color: transparent; /* Для браузеров без поддержки */
