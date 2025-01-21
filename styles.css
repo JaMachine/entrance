@@ -27,25 +27,30 @@ h1 {
 }
 
 .button {
-  background-color: rgb(6, 0, 1);
-  color: rgb(255, 255, 255);
-  border: 2px solid rgb(255, 0, 204); /* Белая обводка толщиной 2px */
-  margin: 15px; /* Пример увеличенного промежутка между кнопками */
-  cursor: pointer;
-  border-radius: 6px; /* Оставляем закругленные углы */
-  text-decoration: none;
-  font-family: "ButtonFont", sans-serif;
-  font-size: 3.0rem;
-  width: 200px;
-  height: 63px;
+  background: linear-gradient(180deg, #ff0000, #ff00ff); /* Градиент от красного к розовому */
+  color: white; /* Цвет текста */
+  text-shadow: -2px -2px 0 black, 
+               2px -2px 0 black, 
+              -2px  2px 0 black, 
+               2px  2px 0 black; /* Черная обводка текста */
+  border: none; /* Убираем обводку кнопки */
+  margin: 16px; /* Промежуток между кнопками */
+  cursor: pointer; /* Курсор "указатель" при наведении */
+  border-radius: 9px; /* Закругленные углы кнопки */
+  text-decoration: none; /* Убираем подчеркивание текста */
+  font-family: "ButtonFont", sans-serif; /* Шрифт кнопки */
+  font-size: 2.9rem; /* Размер текста */
+  width: 190px; /* Ширина кнопки */
+  height: 63px; /* Высота кнопки */
   display: flex;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box; /* Учитываем обводку в размере кнопки */
+  box-sizing: border-box; /* Учет отступов внутри размера кнопки */
   padding: 0;
   line-height: 1;
   text-align: center;
 }
+
 
 .button-container {
   display: flex;
