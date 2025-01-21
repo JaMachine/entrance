@@ -33,7 +33,7 @@ h1 {
                2px -2px 0 black, 
               -2px  2px 0 black, 
                2px  2px 0 black; /* Черная обводка текста */
-  border: none; /* Убираем обводку кнопки */
+  border: 2px solid black; /* Черная обводка кнопки */
   margin: 16px; /* Промежуток между кнопками */
   cursor: pointer; /* Курсор "указатель" при наведении */
   border-radius: 9px; /* Закругленные углы кнопки */
@@ -50,7 +50,6 @@ h1 {
   line-height: 1;
   text-align: center;
 }
-
 
 .button-container {
   display: flex;
