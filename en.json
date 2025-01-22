@@ -1,5 +1,7 @@
 {
-    "main_text": "Are you 18 or older?",
-    "yes_btn": "yes",
-    "no_btn":  "No"
-    }
+    "main_text": "Is this correct?",
+    "yes_btn": "Yes",
+    "no_btn": "No",
+    "yes_href": "https://example.com",
+    "no_href": "https://www.yahoo.com/"
+}
